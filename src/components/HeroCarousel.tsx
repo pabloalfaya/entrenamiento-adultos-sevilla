@@ -21,7 +21,7 @@ export default function HeroCarousel() {
 
   return (
     <div className="relative w-full max-w-sm overflow-hidden rounded-2xl bg-slate-900/20 shadow-xl shadow-slate-900/20 backdrop-blur">
-      <div className="aspect-[4/3] w-full">
+      <div className="aspect-[3/4] w-full">
         {SLIDES.map((slide, index) => (
           <div
             key={slide.src}
