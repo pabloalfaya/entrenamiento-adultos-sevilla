@@ -31,22 +31,17 @@ export default function Navbar() {
         <div className="flex items-center gap-4 md:gap-8">
           <ul className="hidden items-center gap-6 text-sm font-medium text-slate-700 md:flex">
             <li>
-              <Link href="/" className="hover:text-[#0f3c73]">
-                Inicio
-              </Link>
-            </li>
-            <li>
-              <Link href="/#objetivos" className="hover:text-[#0f3c73]">
+              <Link href="/objetivos" className="hover:text-[#0f3c73]">
                 Objetivos
               </Link>
             </li>
             <li>
-              <Link href="/#entrenamientos" className="hover:text-[#0f3c73]">
+              <Link href="/entrenamientos" className="hover:text-[#0f3c73]">
                 Entrenamientos
               </Link>
             </li>
             <li>
-              <Link href="/#contacto" className="hover:text-[#0f3c73]">
+              <Link href="/contacto" className="hover:text-[#0f3c73]">
                 Contacto
               </Link>
             </li>

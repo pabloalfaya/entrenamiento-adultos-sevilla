@@ -25,13 +25,13 @@ export default function Home() {
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="#contacto"
+                href="/contacto"
                 className="inline-flex items-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#0f3c73] shadow-md transition hover:bg-slate-100"
               >
                 Reservar una llamada
               </a>
               <a
-                href="#entrenamientos"
+                href="/entrenamientos"
                 className="inline-flex items-center rounded-full border border-white/60 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
               >
                 Ver entrenamientos

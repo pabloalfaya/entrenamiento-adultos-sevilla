@@ -27,7 +27,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <a
-          href="https://wa.me/34666003340"
+          href="https://wa.me/34666489362"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Contactar por WhatsApp"
