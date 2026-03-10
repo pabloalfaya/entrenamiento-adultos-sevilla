@@ -31,8 +31,10 @@ export default function Navbar() {
         <div className="flex items-center gap-4 md:gap-8">
           <ul className="hidden items-center gap-6 text-sm font-medium text-slate-700 md:flex">
             <li>
-              <Link href="/importancia-entrenamiento" className="hover:text-[#0f3c73]">
+              <Link href="/importancia-entrenamiento" className="block text-left leading-tight hover:text-[#0f3c73]">
                 Importancia del entrenamiento
+                <br />
+                en la tercera edad
               </Link>
             </li>
             <li>
