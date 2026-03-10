@@ -1,3 +1,5 @@
+import HeroCarousel from "@/components/HeroCarousel";
+
 export default function Home() {
   return (
     <div className="bg-[#f5f7fb] text-slate-900">
@@ -42,40 +44,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="w-full max-w-sm rounded-2xl bg-white/95 p-5 text-slate-900 shadow-xl shadow-slate-900/20 backdrop-blur md:p-6">
-            <h2 className="text-lg font-semibold tracking-tight">
-              Primera valoración sin compromiso
-            </h2>
-            <p className="mt-2 text-sm text-slate-600">
-              Analizamos su estado físico y proponemos un plan sencillo y seguro para empezar.
-            </p>
-            <dl className="mt-4 space-y-3 text-sm">
-              <div className="flex items-center gap-3">
-                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#0f3c73]/10 text-[#0f3c73]">
-                  ✓
-                </span>
-                <div>
-                  <dt className="font-medium text-slate-900">Sesiones individuales o en grupos reducidos</dt>
-                </div>
-              </div>
-              <div className="flex items-center gap-3">
-                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#0f3c73]/10 text-[#0f3c73]">
-                  ✓
-                </span>
-                <div>
-                  <dt className="font-medium text-slate-900">Horarios flexibles de mañana y tarde</dt>
-                </div>
-              </div>
-              <div className="flex items-center gap-3">
-                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#0f3c73]/10 text-[#0f3c73]">
-                  ✓
-                </span>
-                <div>
-                  <dt className="font-medium text-slate-900">Comunicación clara y cercana con la familia</dt>
-                </div>
-              </div>
-            </dl>
-          </div>
+          <HeroCarousel />
         </div>
       </section>
 
