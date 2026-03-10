@@ -14,7 +14,7 @@ export default function Home() {
         <div className="relative mx-auto flex max-w-6xl flex-col gap-10 px-4 py-20 md:flex-row md:items-center md:gap-14 md:px-6 md:py-24 lg:py-28">
           <div className="max-w-xl">
             <p className="mb-4 inline-flex rounded-full bg-white/10 px-3 py-1 text-xs font-medium tracking-[0.18em] text-slate-100 backdrop-blur">
-              ENTRENAMIENTO ESPECIALIZADO PARA MAYORES
+              ENTRENAMIENTO ESPECIALIZADO PARA ADULTOS DE LA TERCERA EDAD
             </p>
             <h1 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
               SEVILLA SENIOR TRAINING: MEJORA TU CALIDAD DE VIDA
