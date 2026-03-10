@@ -1,127 +1,243 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-stone-50">
-      {/* Hero Section */}
-      <header className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 text-white">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMiIvPjwvZz48L2c+PC9zdmc+')] opacity-60" />
-        <nav className="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
-          <a href="/" className="text-xl font-semibold tracking-tight">
-            Entrenamiento Sevilla
-          </a>
-          <ul className="hidden gap-8 md:flex">
-            <li><a href="#caracteristicas" className="text-stone-300 transition hover:text-white">Características</a></li>
-            <li><a href="#contacto" className="text-stone-300 transition hover:text-white">Contacto</a></li>
-          </ul>
-        </nav>
-        <div className="relative z-10 mx-auto max-w-6xl px-6 pb-24 pt-16 md:pb-32 md:pt-24">
-          <p className="mb-4 text-sm font-medium uppercase tracking-widest text-amber-400/90">
-            Bienestar y actividad física
-          </p>
-          <h1 className="max-w-3xl text-4xl font-bold leading-tight tracking-tight md:text-5xl lg:text-6xl">
-            Entrenamiento diseñado para{" "}
-            <span className="text-amber-400">personas mayores</span> en Sevilla
-          </h1>
-          <p className="mt-6 max-w-xl text-lg text-stone-300 md:text-xl">
-            Programas adaptados, profesionales cualificados y un entorno seguro para mejorar tu salud y vitalidad.
-          </p>
-          <div className="mt-10 flex flex-wrap gap-4">
-            <a
-              href="#contacto"
-              className="inline-flex items-center rounded-lg bg-amber-500 px-6 py-3 font-medium text-stone-900 transition hover:bg-amber-400"
-            >
-              Empezar ahora
-            </a>
-            <a
-              href="#caracteristicas"
-              className="inline-flex items-center rounded-lg border border-stone-500/50 px-6 py-3 font-medium text-white transition hover:border-stone-400 hover:bg-white/5"
-            >
-              Saber más
-            </a>
-          </div>
+    <div className="bg-[#f5f7fb] text-slate-900">
+      {/* Hero */}
+      <section
+        id="inicio"
+        className="relative isolate overflow-hidden bg-slate-900 text-white"
+      >
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,#1a4c88,transparent_55%),radial-gradient(circle_at_bottom_right,#0f3c73,transparent_60%)] opacity-90" />
+          <div className="absolute inset-0 bg-[url('/hero-senior.jpg')] bg-cover bg-center mix-blend-soft-light opacity-60" />
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-stone-50 to-transparent" />
-      </header>
 
-      {/* Features Section */}
-      <section id="caracteristicas" className="relative -mt-8 px-6 pb-24 md:-mt-12 md:pb-32">
-        <div className="mx-auto max-w-6xl">
-          <div className="rounded-2xl border border-stone-200/80 bg-white p-8 shadow-xl shadow-stone-200/50 md:p-12">
-            <div className="mb-12 text-center md:mb-16">
-              <h2 className="text-3xl font-bold tracking-tight text-stone-900 md:text-4xl">
-                Por qué elegirnos
-              </h2>
-              <p className="mx-auto mt-4 max-w-2xl text-stone-600">
-                Metodología centrada en la seguridad, el progreso gradual y el disfrute de la actividad física.
-              </p>
+        <div className="relative mx-auto flex max-w-6xl flex-col gap-10 px-4 py-16 md:flex-row md:items-center md:gap-14 md:px-6 md:py-20 lg:py-24">
+          <div className="max-w-xl">
+            <p className="mb-4 inline-flex rounded-full bg-white/10 px-3 py-1 text-xs font-medium tracking-[0.18em] text-slate-100 backdrop-blur">
+              ENTRENAMIENTO ESPECIALIZADO PARA MAYORES
+            </p>
+            <h1 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
+              SEVILLA SENIOR TRAINING
+            </h1>
+            <p className="mt-4 max-w-lg text-base text-slate-100 sm:text-lg md:mt-6 md:text-xl">
+              Entrenamiento personalizado para el adulto mayor en Sevilla. Mejora tu fuerza, equilibrio y autonomía en
+              un entorno cercano y seguro.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-4">
+              <a
+                href="#contacto"
+                className="inline-flex items-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#0f3c73] shadow-md transition hover:bg-slate-100"
+              >
+                Reservar una llamada
+              </a>
+              <a
+                href="#entrenamientos"
+                className="inline-flex items-center rounded-full border border-white/60 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+              >
+                Ver entrenamientos
+              </a>
             </div>
-            <div className="grid gap-8 md:grid-cols-3">
-              <article className="group rounded-xl border border-stone-100 bg-stone-50/50 p-6 transition hover:border-amber-200 hover:bg-amber-50/30">
-                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-amber-100 text-amber-600 group-hover:bg-amber-200">
-                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
+            <p className="mt-6 text-sm text-slate-200">
+              Sesiones adaptadas a cada nivel, con atención cercana y lenguaje claro, pensadas para personas mayores y
+              sus familias.
+            </p>
+          </div>
+
+          <div className="w-full max-w-sm rounded-2xl bg-white/95 p-5 text-slate-900 shadow-xl shadow-slate-900/20 backdrop-blur md:p-6">
+            <h2 className="text-lg font-semibold tracking-tight">
+              Primera valoración sin compromiso
+            </h2>
+            <p className="mt-2 text-sm text-slate-600">
+              Analizamos su estado físico y proponemos un plan sencillo y seguro para empezar.
+            </p>
+            <dl className="mt-4 space-y-3 text-sm">
+              <div className="flex items-center gap-3">
+                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#0f3c73]/10 text-[#0f3c73]">
+                  ✓
+                </span>
+                <div>
+                  <dt className="font-medium text-slate-900">Sesiones individuales o en grupos reducidos</dt>
                 </div>
-                <h3 className="text-lg font-semibold text-stone-900">Ejercicios adaptados</h3>
-                <p className="mt-2 text-stone-600">
-                  Rutinas personalizadas según tu nivel y necesidades, respetando tus limitaciones y objetivos.
-                </p>
-              </article>
-              <article className="group rounded-xl border border-stone-100 bg-stone-50/50 p-6 transition hover:border-amber-200 hover:bg-amber-50/30">
-                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-amber-100 text-amber-600 group-hover:bg-amber-200">
-                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
-                  </svg>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#0f3c73]/10 text-[#0f3c73]">
+                  ✓
+                </span>
+                <div>
+                  <dt className="font-medium text-slate-900">Horarios flexibles de mañana y tarde</dt>
                 </div>
-                <h3 className="text-lg font-semibold text-stone-900">Profesionales cualificados</h3>
-                <p className="mt-2 text-stone-600">
-                  Formación especializada en ejercicio para mayores y experiencia en atención individualizada.
-                </p>
-              </article>
-              <article className="group rounded-xl border border-stone-100 bg-stone-50/50 p-6 transition hover:border-amber-200 hover:bg-amber-50/30">
-                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-amber-100 text-amber-600 group-hover:bg-amber-200">
-                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
-                  </svg>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#0f3c73]/10 text-[#0f3c73]">
+                  ✓
+                </span>
+                <div>
+                  <dt className="font-medium text-slate-900">Comunicación clara y cercana con la familia</dt>
                 </div>
-                <h3 className="text-lg font-semibold text-stone-900">Espacios accesibles</h3>
-                <p className="mt-2 text-stone-600">
-                  Instalaciones adaptadas, grupos reducidos y entorno acogedor para entrenar con comodidad.
-                </p>
-              </article>
-            </div>
+              </div>
+            </dl>
           </div>
         </div>
       </section>
 
-      {/* Footer */}
-      <footer id="contacto" className="border-t border-stone-200 bg-stone-900 px-6 py-12 text-white md:py-16">
+      {/* Objetivos */}
+      <section
+        id="objetivos"
+        className="bg-white px-4 py-16 md:px-6 md:py-20"
+        aria-labelledby="objetivos-title"
+      >
         <div className="mx-auto max-w-6xl">
-          <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
-            <div>
-              <h3 className="text-xl font-semibold">Entrenamiento Sevilla</h3>
-              <p className="mt-2 max-w-sm text-stone-400">
-                Programas de ejercicio y bienestar para personas mayores. Tu salud, nuestra prioridad.
+          <div className="max-w-2xl">
+            <h2
+              id="objetivos-title"
+              className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl"
+            >
+              Objetivos de Sevilla Senior Training
+            </h2>
+            <p className="mt-3 text-sm text-slate-600 sm:text-base">
+              Nuestro foco está en mantener y recuperar la autonomía de la persona mayor, siempre con seguridad y
+              acompañamiento profesional.
+            </p>
+          </div>
+
+          <div className="mt-10 grid gap-6 md:grid-cols-3">
+            <article className="flex flex-col gap-3 rounded-2xl bg-[#e6effa] p-5">
+              <div className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-[#0f3c73] text-white">
+                <svg
+                  className="h-5 w-5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M9 11.25 11.25 13.5 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    stroke="currentColor"
+                    strokeWidth="1.6"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 className="text-base font-semibold text-slate-900">
+                Mejorar fuerza y equilibrio
+              </h3>
+              <p className="text-sm leading-relaxed text-slate-700">
+                Ejercicios sencillos, explicados con calma, para ganar seguridad al caminar, levantarse o subir
+                escaleras.
+              </p>
+            </article>
+
+            <article className="flex flex-col gap-3 rounded-2xl bg-slate-50 p-5">
+              <div className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-[#0f3c73] text-white">
+                <svg
+                  className="h-5 w-5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M12 6v6l3 3M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    stroke="currentColor"
+                    strokeWidth="1.6"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 className="text-base font-semibold text-slate-900">
+                Mantener la autonomía diaria
+              </h3>
+              <p className="text-sm leading-relaxed text-slate-700">
+                Programas orientados a las tareas del día a día: vestirse, levantarse de la cama o entrar y salir del
+                coche.
+              </p>
+            </article>
+
+            <article className="flex flex-col gap-3 rounded-2xl bg-slate-50 p-5">
+              <div className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-[#0f3c73] text-white">
+                <svg
+                  className="h-5 w-5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M15.59 14.37a4.5 4.5 0 0 0-7.58 0L4.318 19.5h15.364L15.59 14.37Z"
+                    stroke="currentColor"
+                    strokeWidth="1.6"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M9 9a3 3 0 1 0 6 0A3 3 0 0 0 9 9Z"
+                    stroke="currentColor"
+                    strokeWidth="1.6"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 className="text-base font-semibold text-slate-900">
+                Cuidar el ánimo y la confianza
+              </h3>
+              <p className="text-sm leading-relaxed text-slate-700">
+                Entrenamientos que respetan el ritmo de cada persona, evitando miedos y reforzando la confianza en sí
+                misma.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      {/* Entrenamientos */}
+      <section
+        id="entrenamientos"
+        className="bg-[#f5f7fb] px-4 py-16 md:px-6 md:py-20"
+        aria-labelledby="entrenamientos-title"
+      >
+        <div className="mx-auto max-w-6xl">
+          <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
+            <div className="max-w-xl">
+              <h2
+                id="entrenamientos-title"
+                className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl"
+              >
+                Entrenamientos pensados para el adulto mayor
+              </h2>
+              <p className="mt-3 text-sm text-slate-600 sm:text-base">
+                Explicamos cada ejercicio con palabras sencillas, demostrando con calma y corrigiendo siempre con
+                respeto.
               </p>
             </div>
-            <div className="space-y-2">
-              <p className="text-sm font-medium text-stone-400">Contacto</p>
-              <p className="text-stone-200"> Sevilla, España</p>
-              <a href="mailto:info@entrenamientosevilla.es" className="block text-amber-400 transition hover:text-amber-300">
-                info@entrenamientosevilla.es
-              </a>
-            </div>
-          </div>
-          <div className="mt-12 flex flex-col items-center justify-between border-t border-stone-700/50 pt-8 md:flex-row">
-            <p className="text-sm text-stone-500">
-              © {new Date().getFullYear()} Entrenamiento Personas Mayores Sevilla. Todos los derechos reservados.
-            </p>
-            <div className="mt-4 flex gap-6 md:mt-0">
-              <a href="#" className="text-sm text-stone-500 transition hover:text-stone-300">Aviso legal</a>
-              <a href="#" className="text-sm text-stone-500 transition hover:text-stone-300">Privacidad</a>
+            <div className="grid gap-4 text-sm text-slate-700 md:w-1/2">
+              <div className="rounded-xl bg-white p-4 shadow-sm">
+                <p className="font-semibold text-slate-900">
+                  Sesiones de fuerza suave
+                </p>
+                <p className="mt-1">
+                  Uso de gomas, pequeños pesos y el propio cuerpo para fortalecer piernas, brazos y espalda.
+                </p>
+              </div>
+              <div className="rounded-xl bg-white p-4 shadow-sm">
+                <p className="font-semibold text-slate-900">
+                  Trabajo de equilibrio y marcha
+                </p>
+                <p className="mt-1">
+                  Ejercicios específicos para reducir el riesgo de caídas y mejorar la seguridad al caminar.
+                </p>
+              </div>
+              <div className="rounded-xl bg-white p-4 shadow-sm">
+                <p className="font-semibold text-slate-900">
+                  Movilidad y respiración
+                </p>
+                <p className="mt-1">
+                  Rutinas suaves para aliviar rigideces, mejorar la postura y favorecer una respiración tranquila.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </footer>
+      </section>
     </div>
   );
 }
