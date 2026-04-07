@@ -35,8 +35,7 @@ export default function Pricing() {
             <div className="mb-8 text-center mt-4">
               <h3 className="text-2xl font-bold text-ink">Sesión individual (1 a 1)</h3>
               <div className="mt-4 flex items-baseline justify-center gap-2">
-                {/* TODO: pedir precio a Juan José. Placeholder visual: "Desde XX €" */}
-                <span className="text-5xl font-serif font-bold tracking-tight text-ink">30€</span>
+                <span className="text-5xl font-serif font-bold tracking-tight text-ink">XX€</span>
                 <span className="text-lg font-medium text-ink-soft">/ por sesión</span>
               </div>
             </div>
@@ -67,8 +66,7 @@ export default function Pricing() {
             <div className="mb-8 text-center mt-4">
               <h3 className="text-2xl font-bold text-ink">Sesión en pareja (2 a 2)</h3>
               <div className="mt-4 flex items-baseline justify-center gap-2">
-                {/* TODO: pedir precio de pareja a Juan José */}
-                <span className="text-5xl font-serif font-bold tracking-tight text-ink">20€</span>
+                <span className="text-5xl font-serif font-bold tracking-tight text-ink">XX€</span>
                 <span className="text-lg font-medium text-ink-soft">/ persona y sesión</span>
               </div>
             </div>
