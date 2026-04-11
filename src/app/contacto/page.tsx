@@ -83,7 +83,7 @@ export default function ContactoPage() {
                   Llamar
                 </a>
                 <a
-                  href="https://wa.me/34666489362"
+                  href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20entrenamiento%20especializado%20en%20adultos."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-3 font-medium text-white transition hover:bg-[#20b457]"

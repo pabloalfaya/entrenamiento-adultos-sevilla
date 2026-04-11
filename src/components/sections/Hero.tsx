@@ -25,7 +25,9 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center mt-4">
               <Link
-                href="#contacto"
+                href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20reservar%20una%20valoraci%C3%B3n%20gratuita."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex min-h-[56px] items-center justify-center rounded-full bg-primary px-8 text-lg font-semibold text-white shadow-sm transition-colors hover:bg-primary-hover focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg w-full sm:w-auto text-center"
               >
                 Reservar valoración gratuita

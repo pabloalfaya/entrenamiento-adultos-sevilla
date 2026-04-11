@@ -1,5 +1,5 @@
 export default function WhatsAppButton() {
-  const message = "Hola, me gustaría información sobre el entrenamiento para mi familiar";
+  const message = "Hola Juan José, me gustaría recibir información sobre el entrenamiento especializado en adultos.";
   const whatsappUrl = `https://wa.me/34666003340?text=${encodeURIComponent(message)}`;
 
   return (

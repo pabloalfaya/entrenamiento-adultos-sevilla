@@ -54,7 +54,9 @@ export default function Pricing() {
             </ul>
 
             <a
-              href="tel:+34666003340"
+              href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20reservar%20una%20valoraci%C3%B3n%20gratuita."
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-auto flex min-h-[56px] w-full items-center justify-center rounded-full bg-primary px-8 text-lg font-semibold text-white shadow-sm transition-colors hover:bg-primary-hover focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
             >
               Reservar valoración gratuita
@@ -91,7 +93,7 @@ export default function Pricing() {
             </div>
 
             <a
-              href="https://wa.me/34666003340"
+              href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20entrenamiento%20especializado%20en%20adultos."
               target="_blank"
               rel="noopener noreferrer"
               className="mt-auto flex min-h-[56px] w-full items-center justify-center rounded-full border-2 border-primary px-8 text-lg font-semibold text-primary shadow-sm transition-colors hover:bg-primary hover:text-white focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
