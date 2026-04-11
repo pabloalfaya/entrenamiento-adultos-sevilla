@@ -34,17 +34,13 @@ export default function Center() {
 
           {/* Galería Simple */}
           <div className="lg:order-1 relative h-full min-h-[400px] w-full rounded-2xl overflow-hidden shadow-lg bg-surface">
-            {/* TODO: sustituir por 3-5 fotos reales del local (exterior, sala, material) */}
-            <div className="absolute inset-0 flex items-center justify-center text-ink-soft p-8 text-center border-2 border-dashed border-muted rounded-2xl m-4">
-              <p>[Galería de fotos del centro: entrada, sala y material]</p>
-            </div>
-            {/* Si usas fotos reales en grid simple:
-            <div className="grid grid-cols-2 gap-4 h-full">
-               <div className="relative col-span-2 h-64...">...</div>
-               <div className="relative h-48...">...</div>
-               <div className="relative h-48...">...</div>
-            </div>
-            */}
+            <Image
+              src="/sanolosremedios1.webp"
+              alt="Centro de entrenamiento en Los Remedios"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+            />
           </div>
 
         </div>

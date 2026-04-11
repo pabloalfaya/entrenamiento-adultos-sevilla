@@ -58,18 +58,14 @@ export default function Hero() {
           {/* Image */}
           <div className="lg:col-span-5 relative">
             <div className="relative aspect-[4/5] w-full max-w-md mx-auto lg:max-w-none overflow-hidden rounded-2xl shadow-xl">
-              {/* TODO: reemplazar hero-juanjose.jpg con foto real del entrenador */}
-              <div className="absolute inset-0 bg-muted flex items-center justify-center text-ink-soft text-center p-8">
-                <p>[Foto de Juan José en el centro de Los Remedios]</p>
-              </div>
-              {/* <Image
-                src="/hero-juanjose.jpg"
+              <Image
+                src="/juanjose.jpeg"
                 alt="Juan José Alfaya, entrenador personal especializado en personas mayores"
                 fill
                 className="object-cover"
                 priority
                 sizes="(max-width: 1024px) 100vw, 50vw"
-              /> */}
+              />
             </div>
             
             {/* Floating Badge */}
