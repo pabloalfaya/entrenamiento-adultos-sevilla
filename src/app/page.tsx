@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, Users, UserPlus, Heart } from "lucide-react";
 import Image from "next/image";
 import Location from "@/components/sections/Location";
+import GeneralTestimonials from "@/components/sections/GeneralTestimonials";
 
 export default function Home() {
   return (
@@ -88,6 +89,8 @@ export default function Home() {
         </div>
       </section>
 
+      <GeneralTestimonials />
+      
       <Location />
     </div>
   );
