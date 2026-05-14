@@ -9,12 +9,10 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: "#centro", label: "El centro" },
-    { href: "#metodo", label: "Cómo entrenamos" },
-    { href: "#programas", label: "Programas" },
-    { href: "#precios", label: "Precios" },
-    { href: "#ubicacion", label: "Cómo llegar" },
-    { href: "#faq", label: "Preguntas" },
+    { href: "/grupos", label: "Grupos Reducidos" },
+    { href: "/personal", label: "Personal y Parejas" },
+    { href: "/mayores", label: "Salud y Mayores" },
+    { href: "/contacto", label: "Contacto" },
   ];
 
   return (

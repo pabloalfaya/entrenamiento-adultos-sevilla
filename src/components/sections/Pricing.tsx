@@ -32,11 +32,26 @@ export default function Pricing() {
               ATENCIÓN PERSONAL TOTAL
             </div>
             
-            <div className="mb-8 text-center mt-4">
+            <div className="mb-6 text-center mt-4">
               <h3 className="text-2xl font-bold text-ink">Sesión individual (1 a 1)</h3>
-              <div className="mt-4 flex items-baseline justify-center gap-2">
-                <span className="text-5xl font-serif font-bold tracking-tight text-ink">XX€</span>
-                <span className="text-lg font-medium text-ink-soft">/ por sesión</span>
+            </div>
+
+            <div className="bg-surface rounded-2xl p-4 mb-6">
+              <div className="flex items-center justify-between py-2 border-b border-muted">
+                <span className="text-ink font-medium">1 sesión</span>
+                <span className="text-xl font-bold text-ink">35 €</span>
+              </div>
+              <div className="flex items-center justify-between py-2 border-b border-muted">
+                <span className="text-ink font-medium">4 sesiones / mes</span>
+                <span className="text-xl font-bold text-ink">124 €</span>
+              </div>
+              <div className="flex items-center justify-between py-2 border-b border-muted">
+                <span className="text-ink font-medium">8 sesiones / mes</span>
+                <span className="text-xl font-bold text-ink">224 €</span>
+              </div>
+              <div className="flex items-center justify-between py-2">
+                <span className="text-ink font-medium">12 sesiones / mes</span>
+                <span className="text-xl font-bold text-ink">284 €</span>
               </div>
             </div>
 
@@ -65,11 +80,26 @@ export default function Pricing() {
 
           {/* Tarjeta 2: Pareja */}
           <article className="flex flex-col rounded-3xl bg-bg p-8 md:p-10 shadow-md border border-muted/50 transition-shadow hover:shadow-lg mt-8 lg:mt-0 lg:scale-[0.98]">
-            <div className="mb-8 text-center mt-4">
-              <h3 className="text-2xl font-bold text-ink">Sesión en pareja (2 a 2)</h3>
-              <div className="mt-4 flex items-baseline justify-center gap-2">
-                <span className="text-5xl font-serif font-bold tracking-tight text-ink">XX€</span>
-                <span className="text-lg font-medium text-ink-soft">/ persona y sesión</span>
+            <div className="mb-6 text-center mt-4">
+              <h3 className="text-2xl font-bold text-ink">Sesión en pareja (2 a 1)</h3>
+            </div>
+
+            <div className="bg-white rounded-2xl p-4 mb-6 border border-muted/50">
+              <div className="flex items-center justify-between py-2 border-b border-muted">
+                <span className="text-ink font-medium">1 sesión</span>
+                <span className="text-xl font-bold text-ink">55 €</span>
+              </div>
+              <div className="flex items-center justify-between py-2 border-b border-muted">
+                <span className="text-ink font-medium">4 sesiones / mes</span>
+                <span className="text-xl font-bold text-ink">185 €</span>
+              </div>
+              <div className="flex items-center justify-between py-2 border-b border-muted">
+                <span className="text-ink font-medium">8 sesiones / mes</span>
+                <span className="text-xl font-bold text-ink">294 €</span>
+              </div>
+              <div className="flex items-center justify-between py-2">
+                <span className="text-ink font-medium">12 sesiones / mes</span>
+                <span className="text-xl font-bold text-ink">370 €</span>
               </div>
             </div>
 
@@ -104,16 +134,10 @@ export default function Pricing() {
 
         </div>
 
-        <div className="mt-16 text-center">
-          <p className="text-lg text-ink-soft">
-            ¿Quieres empezar con un bono de varias sesiones o una frecuencia concreta?
-            <br className="hidden sm:block" />
-            <a href="tel:+34666003340" className="font-semibold text-primary hover:text-primary-hover focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-sm">
-              Llámanos
-            </a>{" "}
-            y lo hablamos sin compromiso.
+        <div className="mt-12 text-center">
+          <p className="text-sm font-semibold tracking-wide text-ink-soft uppercase bg-white inline-block px-4 py-2 rounded-full border border-muted/50">
+            Sin matrícula ni permanencia
           </p>
-          {/* TODO: cuando haya bonos/cuotas mensuales, añadir tercera tarjeta o nota con precios */}
         </div>
 
       </div>
