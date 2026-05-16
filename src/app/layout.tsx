@@ -47,7 +47,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Sevilla Senior Training",
-    "image": "/logo.png",
+    "image": "/logoprueba.png",
     "description": "Centro especializado en entrenamiento para personas mayores en Los Remedios, Sevilla.",
     "telephone": "+34666003340",
     "email": "farrosqui@gmail.com",

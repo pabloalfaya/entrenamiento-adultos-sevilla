@@ -24,7 +24,7 @@ export default function Navbar() {
           aria-label="Ir al inicio de Sevilla Senior Training"
         >
           <Image
-            src="/logo.png"
+            src="/logoprueba.png"
             alt=""
             width={48}
             height={48}
@@ -34,10 +34,10 @@ export default function Navbar() {
           />
           <div className="leading-tight hidden sm:block">
             <p className="text-xs font-semibold tracking-[0.2em] text-ink-soft">
-              SEVILLA
+              ENTRENA
             </p>
             <p className="text-sm font-semibold tracking-tight text-ink">
-              SENIOR TRAINING
+              SEVILLA
             </p>
           </div>
         </Link>

@@ -13,24 +13,24 @@ export default function Footer() {
           <div className="flex flex-col gap-6 md:col-span-1">
             <div className="flex items-center gap-3">
               <Image
-                src="/logo.png"
+                src="/logoprueba.png"
                 alt=""
                 width={48}
                 height={48}
-                className="h-12 w-12 shrink-0 object-contain brightness-0 invert"
+                className="h-12 w-12 shrink-0 object-contain"
                 aria-hidden="true"
               />
-              <div>
-                <p className="text-sm font-semibold tracking-[0.2em] text-muted">
-                  SEVILLA
-                </p>
-                <p className="text-base font-semibold tracking-tight text-white">
-                  SENIOR TRAINING
-                </p>
-              </div>
+          <div className="leading-tight hidden sm:block">
+            <p className="text-xs font-semibold tracking-[0.2em] text-ink-soft">
+              ENTRENA
+            </p>
+            <p className="text-sm font-semibold tracking-tight text-ink">
+              SEVILLA
+            </p>
+          </div>
             </div>
             <p className="text-lg text-muted">
-              Entrenamiento personal para mayores en Sevilla.
+              Centro de entrenamiento en Los Remedios.
             </p>
             <p className="text-base text-muted flex items-start gap-2">
               <MapPin className="h-5 w-5 shrink-0 mt-0.5" aria-hidden="true" />
@@ -91,7 +91,7 @@ export default function Footer() {
 
         <div className="mt-16 flex flex-col border-t border-ink-soft/50 pt-8 text-sm text-muted md:flex-row md:items-center md:justify-between gap-4">
           <p>
-            © {currentYear} Sevilla Senior Training · Juan José Alfaya Arias
+            © {currentYear} Entrena Sevilla · Juan José Alfaya Arias
           </p>
           <div className="flex flex-wrap gap-4 md:gap-6">
             <Link href="/aviso-legal" className="hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Aviso legal</Link>
