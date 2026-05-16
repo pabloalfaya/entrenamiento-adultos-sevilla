@@ -18,19 +18,20 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Entrenador personal para mayores en Los Remedios, Sevilla | Sevilla Senior Training",
+  title: "Entrena Sevilla | Centro de entrenamiento en Los Remedios",
   description:
-    "Centro especializado en entrenamiento para personas mayores en Los Remedios, Sevilla. Juan José Alfaya, graduado CAFD con +5 años de experiencia. Sesiones individuales y en pareja. Primera sesión gratuita.",
+    "Centro de entrenamiento en grupos reducidos, personal y para adultos mayores en Los Remedios, Sevilla. Primera clase gratis. Reserva tu plaza.",
   openGraph: {
-    title: "Entrenador personal para mayores en Los Remedios, Sevilla",
-    description: "Centro especializado en entrenamiento para personas mayores en Los Remedios, Sevilla. Primera sesión gratuita.",
+    title: "Entrena Sevilla | Centro de entrenamiento en Los Remedios",
+    description: "Centro de entrenamiento en grupos reducidos, personal y para adultos mayores en Los Remedios, Sevilla. Primera clase gratis. Reserva tu plaza.",
+    url: "https://entrenasevilla.es/",
     type: "website",
     locale: "es_ES",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Entrenador personal para mayores en Los Remedios, Sevilla",
-    description: "Centro especializado en entrenamiento para personas mayores en Los Remedios, Sevilla. Primera sesión gratuita.",
+    title: "Entrena Sevilla | Centro de entrenamiento en Los Remedios",
+    description: "Centro de entrenamiento en grupos reducidos, personal y para adultos mayores en Los Remedios, Sevilla. Primera clase gratis. Reserva tu plaza.",
   },
 };
 

@@ -11,7 +11,7 @@ export default function Navbar() {
   const navLinks = [
     { href: "/grupos", label: "Grupos Reducidos" },
     { href: "/personal", label: "Personal y Parejas" },
-    { href: "/mayores", label: "Salud y Mayores" },
+    { href: "/adultos", label: "Salud y Mayores" },
     { href: "/contacto", label: "Contacto" },
   ];
 

@@ -3,6 +3,18 @@ import { ArrowRight, Users, UserPlus, Heart } from "lucide-react";
 import Image from "next/image";
 import Location from "@/components/sections/Location";
 import GeneralTestimonials from "@/components/sections/GeneralTestimonials";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Entrena Sevilla | Centro de entrenamiento en Los Remedios",
+  description: "Centro de entrenamiento en grupos reducidos, personal y para adultos mayores en Los Remedios, Sevilla. Primera clase gratis. Reserva tu plaza.",
+  openGraph: {
+    title: "Entrena Sevilla | Centro de entrenamiento en Los Remedios",
+    description: "Centro de entrenamiento en grupos reducidos, personal y para adultos mayores en Los Remedios, Sevilla. Primera clase gratis. Reserva tu plaza.",
+    url: "https://entrenasevilla.es/",
+    type: "website",
+  },
+};
 
 export default function Home() {
   return (
@@ -70,7 +82,7 @@ export default function Home() {
             </Link>
 
             {/* Opción 3: Mayores */}
-            <Link href="/mayores" className="group flex flex-col rounded-3xl bg-white p-8 shadow-sm transition-all hover:shadow-xl hover:-translate-y-1 border border-transparent hover:border-primary/20">
+            <Link href="/adultos" className="group flex flex-col rounded-3xl bg-white p-8 shadow-sm transition-all hover:shadow-xl hover:-translate-y-1 border border-transparent hover:border-primary/20">
               <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
                 <Heart className="h-8 w-8" />
               </div>

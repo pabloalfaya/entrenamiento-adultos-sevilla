@@ -14,8 +14,14 @@ import FinalCTA from "@/components/sections/FinalCTA";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Entrenamiento para Personas Mayores | Sevilla Senior Training",
-  description: "Recupera la fuerza, el equilibrio y la autonomía con entrenamientos adaptados a partir de los 70 años en Los Remedios, Sevilla.",
+  title: "Entrenamiento para adultos mayores en Sevilla | Entrena Sevilla",
+  description: "Mejora tu equilibrio, fuerza y movilidad con entrenamiento personalizado para mayores en Los Remedios, Sevilla. Sesiones adaptadas en pareja. Infórmate.",
+  openGraph: {
+    title: "Entrenamiento para adultos mayores en Sevilla | Entrena Sevilla",
+    description: "Mejora tu equilibrio, fuerza y movilidad con entrenamiento personalizado para mayores en Los Remedios, Sevilla. Sesiones adaptadas en pareja. Infórmate.",
+    url: "https://entrenasevilla.es/adultos",
+    type: "website",
+  },
 };
 
 export default function MayoresPage() {

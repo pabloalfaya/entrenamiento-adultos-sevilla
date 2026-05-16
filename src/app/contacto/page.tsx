@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contacto | Sevilla Senior Training",
-  description:
-    "Contacta con Sevilla Senior Training. Teléfono, email y WhatsApp para información sobre entrenamiento para mayores.",
+  title: "Contacto | Entrena Sevilla",
+  description: "Contacta con Entrena Sevilla. Teléfono, email y WhatsApp para información sobre entrenamiento personal, en grupo o para mayores.",
+  openGraph: {
+    title: "Contacto | Entrena Sevilla",
+    description: "Contacta con Entrena Sevilla. Teléfono, email y WhatsApp para información sobre entrenamiento personal, en grupo o para mayores.",
+    url: "https://entrenasevilla.es/contacto",
+    type: "website",
+  },
 };
 
 export default function ContactoPage() {

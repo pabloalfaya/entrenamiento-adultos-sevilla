@@ -7,8 +7,14 @@ import Pricing from "@/components/sections/Pricing";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Entrenamiento Personal y Parejas | Sevilla Senior Training",
-  description: "Entrenamiento individualizado 1 a 1 o en parejas en Los Remedios. Planificación a medida para tus objetivos y patologías.",
+  title: "Entrenamiento personal y en pareja en Sevilla | Entrena Sevilla",
+  description: "Entrenamiento personal individual y en pareja en Los Remedios, Sevilla. Programas 100% adaptados a tus objetivos. Reserva tu primera sesión gratis.",
+  openGraph: {
+    title: "Entrenamiento personal y en pareja en Sevilla | Entrena Sevilla",
+    description: "Entrenamiento personal individual y en pareja en Los Remedios, Sevilla. Programas 100% adaptados a tus objetivos. Reserva tu primera sesión gratis.",
+    url: "https://entrenasevilla.es/personal",
+    type: "website",
+  },
 };
 
 export default function PersonalPage() {

@@ -6,8 +6,14 @@ import FinalCTA from "@/components/sections/FinalCTA";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Entrenamiento en Grupos Reducidos | Sevilla Senior Training",
-  description: "Entrenamiento funcional en grupos reducidos en Los Remedios. Dinámico, motivador y guiado por profesionales.",
+  title: "Entrenamiento en grupos reducidos en Sevilla | Entrena Sevilla",
+  description: "Clases en grupos reducidos con atención personalizada en Los Remedios, Sevilla. Máxima intensidad, mínimo ratio entrenador-alumno. Prueba gratis.",
+  openGraph: {
+    title: "Entrenamiento en grupos reducidos en Sevilla | Entrena Sevilla",
+    description: "Clases en grupos reducidos con atención personalizada en Los Remedios, Sevilla. Máxima intensidad, mínimo ratio entrenador-alumno. Prueba gratis.",
+    url: "https://entrenasevilla.es/grupos",
+    type: "website",
+  },
 };
 
 export default function GruposPage() {
