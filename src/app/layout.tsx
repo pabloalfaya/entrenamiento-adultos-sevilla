@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     title: "Entrena Sevilla | Centro de entrenamiento en Los Remedios",
     description: "Centro de entrenamiento en grupos reducidos, personal y para adultos mayores en Los Remedios, Sevilla. Primera clase gratis. Reserva tu plaza.",
   },
+  verification: {
+    google: "JsrPeEXupny75_tml0zIZQC4beFmyl4K_wJ8sqy1jbg",
+  },
 };
 
 export default function RootLayout({
