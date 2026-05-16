@@ -65,9 +65,9 @@ export default function MayoresPage() {
             </div>
 
             <div className="lg:col-span-5 relative">
-              <div className="relative aspect-[4/5] w-full max-w-md mx-auto lg:max-w-none overflow-hidden rounded-2xl shadow-xl">
+              <div className="relative aspect-[4/5] w-full max-w-md mx-auto lg:max-w-none overflow-hidden rounded-2xl shadow-xl bg-warm-glow/50 backdrop-blur-sm">
                 <Image
-                  src="/juanjose.jpeg"
+                  src="/juanjose.png"
                   alt="Juan José Alfaya, entrenador personal"
                   fill
                   className="object-cover"
