@@ -42,11 +42,11 @@ export default function Footer() {
           <div className="md:col-span-1">
             <h2 className="mb-6 text-lg font-semibold text-white">El Centro</h2>
             <ul className="flex flex-col gap-4 text-base text-muted">
-              <li><Link href="#centro" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Instalaciones</Link></li>
-              <li><Link href="#metodo" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Método</Link></li>
-              <li><Link href="#precios" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Precios</Link></li>
-              <li><Link href="#ubicacion" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Cómo llegar</Link></li>
-              <li><Link href="#faq" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Preguntas frecuentes</Link></li>
+              <li><Link href="/adultos#centro" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Instalaciones</Link></li>
+              <li><Link href="/adultos#metodo" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Método</Link></li>
+              <li><Link href="/precios" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Precios</Link></li>
+              <li><Link href="/contacto" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Cómo llegar</Link></li>
+              <li><Link href="/adultos#faq" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Preguntas frecuentes</Link></li>
             </ul>
           </div>
 
@@ -54,12 +54,12 @@ export default function Footer() {
           <div className="md:col-span-1">
             <h2 className="mb-6 text-lg font-semibold text-white">Programas</h2>
             <ul className="flex flex-col gap-4 text-base text-muted">
-              <li><Link href="#programas" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Equilibrio Activo</Link></li>
-              <li><Link href="#programas" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Post-Hospitalización</Link></li>
-              <li><Link href="#programas" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Fuerza Vital</Link></li>
-              <li><Link href="#programas" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Movilidad y Espalda</Link></li>
-              <li><Link href="#programas" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Acompañamiento Neurológico</Link></li>
-              <li><Link href="#programas" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Vida Activa 65+</Link></li>
+              <li><Link href="/adultos#programas" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Equilibrio Activo</Link></li>
+              <li><Link href="/adultos#programas" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Post-Hospitalización</Link></li>
+              <li><Link href="/adultos#programas" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Fuerza Vital</Link></li>
+              <li><Link href="/adultos#programas" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Movilidad y Espalda</Link></li>
+              <li><Link href="/adultos#programas" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Acompañamiento Neurológico</Link></li>
+              <li><Link href="/adultos#programas" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Vida Activa 65+</Link></li>
             </ul>
           </div>
 
@@ -94,9 +94,9 @@ export default function Footer() {
             © {currentYear} Sevilla Senior Training · Juan José Alfaya Arias
           </p>
           <div className="flex flex-wrap gap-4 md:gap-6">
-            <Link href="#" className="hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Aviso legal</Link>
-            <Link href="#" className="hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Política de privacidad</Link>
-            <Link href="#" className="hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Política de cookies</Link>
+            <Link href="/aviso-legal" className="hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Aviso legal</Link>
+            <Link href="/politica-privacidad" className="hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Política de privacidad</Link>
+            <Link href="/politica-cookies" className="hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Política de cookies</Link>
           </div>
         </div>
       </div>

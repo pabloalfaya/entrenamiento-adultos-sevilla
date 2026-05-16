@@ -30,7 +30,7 @@ export default function PersonalPage() {
             className="object-cover object-center"
             priority
           />
-          <div className="absolute inset-0 bg-[#f5f7fb]/90 backdrop-blur-[2px]"></div>
+          <div className="absolute inset-0 bg-[#f5f7fb]/60 backdrop-blur-[1px]"></div>
         </div>
 
         <div className="relative z-10 mx-auto max-w-6xl px-4 md:px-6">
