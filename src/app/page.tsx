@@ -39,7 +39,7 @@ export default function Home() {
               Entrenamiento adaptado a tus necesidades
             </h1>
             <p className="text-xl text-ink-soft leading-relaxed">
-              En nuestro centro de Los Remedios ofrecemos programas especializados según tus objetivos. Elige cómo quieres entrenar con Juan José.
+              En nuestro centro de Los Remedios ofrecemos programas especializados según tus objetivos. Elige cómo quieres entrenar con nosotros.
             </p>
           </div>
 
@@ -63,10 +63,7 @@ export default function Home() {
             </Link>
 
             {/* Opción 2: Personal / Parejas */}
-            <Link href="/personal" className="group flex flex-col rounded-3xl bg-white p-8 shadow-sm transition-all hover:shadow-xl hover:-translate-y-1 border border-transparent hover:border-primary/20 relative">
-              <div className="absolute -top-4 right-8 whitespace-nowrap rounded-full bg-primary px-4 py-1.5 text-sm font-bold tracking-wide text-white shadow-sm">
-                MÁS POPULAR
-              </div>
+            <Link href="/personal" className="group flex flex-col rounded-3xl bg-white p-8 shadow-sm transition-all hover:shadow-xl hover:-translate-y-1 border border-transparent hover:border-primary/20">
               <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
                 <UserPlus className="h-8 w-8" />
               </div>
@@ -74,7 +71,7 @@ export default function Home() {
                 Personal y Parejas
               </h2>
               <p className="text-ink-soft mb-8 flex-grow">
-                Atención 1 a 1 o 2 a 1. Alcanza tus objetivos con un plan 100% diseñado para ti. Especial atención a patologías y lesiones.
+                Entrenamiento personal individual o en pareja. Alcanza tus objetivos con un plan 100% diseñado para ti.
               </p>
               <div className="flex items-center text-primary font-semibold">
                 Ver información <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-2" />
@@ -90,7 +87,7 @@ export default function Home() {
                 Salud y Adultos Mayores
               </h2>
               <p className="text-ink-soft mb-8 flex-grow">
-                Recuperación de fuerza, equilibrio y autonomía para mayores de 70 años. Trabajo con calma, método y mucho respeto.
+                Recuperación de fuerza, equilibrio, propiocepción y autonomía para personas mayores. Trabajo con calma, método y muy personalizado.
               </p>
               <div className="flex items-center text-primary font-semibold">
                 Ver información <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-2" />

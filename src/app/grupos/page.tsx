@@ -44,9 +44,7 @@ export default function GruposPage() {
               Nuestro entrenamiento en grupos reducidos está diseñado para quienes buscan mantenerse activos, ganar fuerza y mejorar su salud general en un entorno dinámico y motivador, con plazas limitadas para asegurar la atención del entrenador.
             </p>
             <Link
-              href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20informaci%C3%B3n%20sobre%20los%20entrenamientos%20en%20grupos%20reducidos."
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/grupos/horarios"
               className="inline-flex min-h-[56px] items-center justify-center gap-2 rounded-full bg-primary px-8 text-lg font-semibold text-white shadow-sm transition-colors hover:bg-primary-hover focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
             >
               Consultar horarios y plazas
@@ -138,8 +136,8 @@ export default function GruposPage() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <ul className="space-y-6">
               {[
-                "Grupos súper reducidos para asegurar calidad",
-                "Entrenamiento funcional adaptado al nivel del grupo",
+                "Aforo limitado en instalaciones de gran tamaño",
+                "Entrenamiento funcional adaptado al nivel de cada cliente",
                 "Trabajo de fuerza, resistencia y movilidad",
                 "Corrección técnica constante por parte del entrenador",
               ].map((item, i) => (
@@ -152,7 +150,7 @@ export default function GruposPage() {
             <ul className="space-y-6">
               {[
                 "Ambiente motivador y cercano",
-                "Variedad de ejercicios y material (kettlebells, TRX, etc.)",
+                "Variedad de ejercicios y material (kettlebells, TRX, discos, barras, etc.)",
                 "Planificación semanal estructurada",
                 "Apto para diferentes niveles de condición física",
               ].map((item, i) => (

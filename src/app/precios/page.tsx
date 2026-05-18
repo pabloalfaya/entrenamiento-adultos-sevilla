@@ -16,13 +16,11 @@ export const metadata: Metadata = {
 
 export default function PreciosPage() {
   const commonFeatures = [
-    "Sesión de 60 minutos en el centro",
+    "Sesión de 50 minutos en el centro",
     "Entrenador graduado CAFD",
     "Valoración inicial gratuita (sin compromiso)",
     "Plan personalizado progresivo",
     "Informe periódico de evolución",
-    "Material deportivo incluido",
-    "Seguro de RC y accidentes",
   ];
 
   return (
@@ -128,7 +126,7 @@ export default function PreciosPage() {
                 </div>
                 
                 <div className="mb-6 text-center mt-4">
-                  <h3 className="text-2xl font-bold text-ink">Sesión individual</h3>
+                  <h3 className="text-2xl font-bold text-ink">Entrenamiento personal individual</h3>
                 </div>
 
                 <div className="bg-surface rounded-2xl p-4 mb-6">
@@ -153,7 +151,7 @@ export default function PreciosPage() {
                 <ul className="flex-1 space-y-4 mb-8">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-6 w-6 shrink-0 text-accent" aria-hidden="true" />
-                    <span className="text-lg text-ink font-medium">Atención exclusiva, uno a uno</span>
+                    <span className="text-lg text-ink font-medium">Atención exclusiva, personalizada</span>
                   </li>
                   {commonFeatures.map((feature) => (
                     <li key={feature} className="flex items-start gap-3">
@@ -176,7 +174,7 @@ export default function PreciosPage() {
               {/* Pareja */}
               <article className="flex flex-col rounded-3xl bg-bg p-8 shadow-sm border border-muted/50 transition-shadow hover:shadow-lg lg:scale-[0.98]">
                 <div className="mb-6 text-center mt-4">
-                  <h3 className="text-2xl font-bold text-ink">Sesión en pareja (2 a 1)</h3>
+                  <h3 className="text-2xl font-bold text-ink">Entrenamiento personal en pareja</h3>
                 </div>
 
                 <div className="bg-white rounded-2xl p-4 mb-6 border border-muted/50">
@@ -201,7 +199,7 @@ export default function PreciosPage() {
                 <ul className="flex-1 space-y-4 mb-8">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="h-6 w-6 shrink-0 text-accent" aria-hidden="true" />
-                    <span className="text-lg text-ink font-medium">Entrena con tu pareja o familiar</span>
+                    <span className="text-lg text-ink font-medium">Entrena con tu pareja o familiar...</span>
                   </li>
                   {commonFeatures.map((feature) => (
                     <li key={feature} className="flex items-start gap-3">

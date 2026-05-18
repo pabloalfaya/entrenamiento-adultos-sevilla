@@ -51,7 +51,7 @@ export default function MayoresPage() {
                 Recupera la fuerza, el equilibrio y la confianza al caminar
               </h1>
               <p className="text-xl leading-relaxed text-ink-soft max-w-2xl">
-                Soy Juan José Alfaya, graduado en CAFD especializado en personas mayores. En mi centro trabajo uno a uno, con calma, método y el respeto que cada persona merece, para recuperar la autonomía que creíais perdida.
+                Soy Juan José Alfaya, graduado en CAFD especializado en adulto mayor. En mi centro trabajo uno a uno, con calma, método y el respeto que cada persona merece. Trabajo con objetivos concretos como mejorar el día a día o la prevención de caídas.
               </p>
               <Link
                 href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20reservar%20una%20valoraci%C3%B3n%20gratuita."
@@ -67,7 +67,7 @@ export default function MayoresPage() {
             <div className="lg:col-span-5 relative">
               <div className="relative aspect-[4/5] w-full max-w-md mx-auto lg:max-w-none overflow-hidden rounded-2xl shadow-xl bg-warm-glow/50 backdrop-blur-sm">
                 <Image
-                  src="/juanjose.png"
+                  src="/jefe.png"
                   alt="Juan José Alfaya, entrenador personal"
                   fill
                   className="object-cover"

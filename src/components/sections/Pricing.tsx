@@ -2,13 +2,11 @@ import { CheckCircle2 } from "lucide-react";
 
 export default function Pricing() {
   const commonFeatures = [
-    "Sesión de 60 minutos en el centro",
+    "Sesión de 50 minutos en el centro",
     "Entrenador graduado CAFD",
     "Valoración inicial gratuita (sin compromiso)",
     "Plan personalizado progresivo",
     "Informe periódico de evolución",
-    "Material deportivo incluido",
-    "Seguro de RC y accidentes",
   ];
 
   return (
@@ -17,11 +15,8 @@ export default function Pricing() {
         
         <div className="mx-auto max-w-3xl text-center mb-16 md:mb-20">
           <h2 className="font-serif text-3xl font-bold leading-tight text-ink sm:text-4xl md:text-[40px]">
-            Un precio claro, sin letra pequeña
+            Precios y mensualidades
           </h2>
-          <p className="mt-6 text-lg md:text-xl leading-relaxed text-ink-soft">
-            La confianza también se construye con transparencia. Este es el precio y esto es todo lo que incluye.
-          </p>
         </div>
 
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-10 max-w-5xl mx-auto">
@@ -33,7 +28,7 @@ export default function Pricing() {
             </div>
             
             <div className="mb-6 text-center mt-4">
-              <h3 className="text-2xl font-bold text-ink">Sesión individual (1 a 1)</h3>
+              <h3 className="text-2xl font-bold text-ink">Entrenamiento personal individual</h3>
             </div>
 
             <div className="bg-surface rounded-2xl p-4 mb-6">
@@ -58,7 +53,7 @@ export default function Pricing() {
             <ul className="flex-1 space-y-4 mb-8">
               <li className="flex items-start gap-3">
                 <CheckCircle2 className="h-6 w-6 shrink-0 text-accent" aria-hidden="true" />
-                <span className="text-lg text-ink font-medium">Atención exclusiva, uno a uno</span>
+                <span className="text-lg text-ink font-medium">Atención exclusiva, personalizada</span>
               </li>
               {commonFeatures.map((feature) => (
                 <li key={feature} className="flex items-start gap-3">
@@ -81,7 +76,7 @@ export default function Pricing() {
           {/* Tarjeta 2: Pareja */}
           <article className="flex flex-col rounded-3xl bg-bg p-8 md:p-10 shadow-md border border-muted/50 transition-shadow hover:shadow-lg mt-8 lg:mt-0 lg:scale-[0.98]">
             <div className="mb-6 text-center mt-4">
-              <h3 className="text-2xl font-bold text-ink">Sesión en pareja (2 a 1)</h3>
+              <h3 className="text-2xl font-bold text-ink">Entrenamiento personal en pareja</h3>
             </div>
 
             <div className="bg-white rounded-2xl p-4 mb-6 border border-muted/50">
@@ -106,7 +101,7 @@ export default function Pricing() {
             <ul className="flex-1 space-y-4 mb-8">
               <li className="flex items-start gap-3">
                 <CheckCircle2 className="h-6 w-6 shrink-0 text-accent" aria-hidden="true" />
-                <span className="text-lg text-ink font-medium">Entrena con tu pareja, un amigo o un familiar</span>
+                <span className="text-lg text-ink font-medium">Entrena con tu pareja, un amigo o un familiar...</span>
               </li>
               {commonFeatures.map((feature) => (
                 <li key={feature} className="flex items-start gap-3">

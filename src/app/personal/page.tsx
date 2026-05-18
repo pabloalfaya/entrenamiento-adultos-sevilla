@@ -42,7 +42,7 @@ export default function PersonalPage() {
               Tu entrenamiento, a tu ritmo y medida
             </h1>
             <p className="text-xl leading-relaxed text-ink-soft mb-10">
-              No creemos en las rutinas de cajón. Evaluamos tu estado inicial, escuchamos tus objetivos (y dolores, si los hay) y trazamos un plan de entrenamiento individual o en pareja con la supervisión constante de un graduado en CAFD.
+              No creemos en las rutinas de cajón. Evaluamos tu estado inicial, escuchamos tus objetivos y trazamos un plan de entrenamiento individual o en pareja con la supervisión constante de un graduado en CAFD.
             </p>
             <Link
               href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20reservar%20una%20valoraci%C3%B3n%20gratuita%20para%20entrenamiento%20personal."
@@ -64,9 +64,9 @@ export default function PersonalPage() {
           <div className="grid md:grid-cols-2 gap-12">
             
             <div className="bg-surface rounded-3xl p-8 border border-muted/50">
-              <h2 className="font-serif text-3xl font-bold text-ink mb-6">Individual (1 a 1)</h2>
+              <h2 className="font-serif text-3xl font-bold text-ink mb-6">Entrenamiento personal individual</h2>
               <p className="text-ink-soft mb-8">
-                El servicio más exclusivo. Una hora dedicada íntegramente a ti, a corregir tu postura, ajustar cargas y asegurar que cada repetición cuenta. Ideal si tienes lesiones previas, patologías o un objetivo muy específico.
+                El servicio más exclusivo. Una hora dedicada íntegramente a ti, a corregir tu postura, ajustar cargas y asegurar que cada repetición cuenta.
               </p>
               <ul className="space-y-4 mb-8">
                 {["Valoración inicial exhaustiva", "Planificación 100% a medida", "Adaptación instantánea del entreno", "Horarios flexibles"].map((item, i) => (
@@ -79,9 +79,9 @@ export default function PersonalPage() {
             </div>
 
             <div className="bg-surface rounded-3xl p-8 border border-muted/50">
-              <h2 className="font-serif text-3xl font-bold text-ink mb-6">Parejas (2 a 1)</h2>
+              <h2 className="font-serif text-3xl font-bold text-ink mb-6">Entrenamiento personal en pareja</h2>
               <p className="text-ink-soft mb-8">
-                Entrena con tu pareja, un amigo o un familiar. Mantenemos una altísima calidad de atención pero sumamos el factor motivación y compromiso que da entrenar con alguien de confianza.
+                Entrena con tu pareja, un amigo o un familiar... Mantenemos una altísima calidad de atención pero sumamos el factor motivación y compromiso que da entrenar con alguien de confianza.
               </p>
               <ul className="space-y-4 mb-8">
                 {["Más económico que la sesión individual", "Extra de motivación y compromiso", "Ejercicios adaptados a ambos", "Se comparte la sesión, no la calidad"].map((item, i) => (

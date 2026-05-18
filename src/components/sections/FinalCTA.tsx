@@ -10,7 +10,7 @@ export default function FinalCTA() {
         </h2>
         
         <p className="mx-auto max-w-2xl text-xl leading-relaxed text-white/90 mb-12">
-          La fuerza y el equilibrio se pierden rápido a partir de los 70. Pero se recuperan, si se trabajan bien. Da el primer paso: ven a conocer el centro, sin compromiso, y hablamos.
+          Da el primer paso: ven a conocer el centro, sin compromiso, y hablamos.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">

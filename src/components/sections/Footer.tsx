@@ -42,7 +42,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <h2 className="mb-6 text-lg font-semibold text-white">El Centro</h2>
             <ul className="flex flex-col gap-4 text-base text-muted">
-              <li><Link href="/adultos#centro" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Instalaciones</Link></li>
+              <li><Link href="/instalaciones" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Instalaciones</Link></li>
               <li><Link href="/adultos#metodo" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Método</Link></li>
               <li><Link href="/precios" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Precios</Link></li>
               <li><Link href="/contacto" className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">Cómo llegar</Link></li>
