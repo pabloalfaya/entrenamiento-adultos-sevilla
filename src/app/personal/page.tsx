@@ -24,8 +24,8 @@ export default function PersonalPage() {
         {/* Background Image & Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/sanolosremedios1.webp"
-            alt="Entrenamiento personal"
+            src="/Instalaciones1.jpeg"
+            alt="Instalaciones del centro Entrena Sevilla"
             fill
             className="object-cover object-center"
             priority
@@ -35,13 +35,13 @@ export default function PersonalPage() {
 
         <div className="relative z-10 mx-auto max-w-6xl px-4 md:px-6">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-2 text-sm font-semibold tracking-wide text-accent mb-6">
+            <div className="inline-flex items-center gap-2 rounded-full bg-white/90 px-4 py-2 text-sm font-semibold tracking-wide text-accent mb-6 shadow-sm hero-text-shadow">
               <span>ATENCIÓN 100% PERSONALIZADA</span>
             </div>
-            <h1 className="font-serif text-4xl leading-[1.15] tracking-tight text-ink sm:text-5xl lg:text-6xl mb-8">
+            <h1 className="font-serif text-4xl leading-[1.15] tracking-tight text-ink sm:text-5xl lg:text-6xl mb-8 hero-text-shadow-lg">
               Tu entrenamiento, a tu ritmo y medida
             </h1>
-            <p className="text-xl leading-relaxed text-ink-soft mb-10">
+            <p className="text-xl leading-relaxed text-ink mb-10 hero-text-shadow">
               No creemos en las rutinas de cajón. Evaluamos tu estado inicial, escuchamos tus objetivos y trazamos un plan de entrenamiento individual o en pareja con la supervisión constante de un graduado en CAFD.
             </p>
             <Link

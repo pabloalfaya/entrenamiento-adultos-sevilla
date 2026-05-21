@@ -35,10 +35,10 @@ export default function Home() {
 
         <div className="relative z-10 mx-auto max-w-6xl px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h1 className="font-serif text-4xl font-bold leading-tight text-ink sm:text-5xl md:text-6xl mb-6">
+            <h1 className="font-serif text-4xl font-bold leading-tight text-ink sm:text-5xl md:text-6xl mb-6 hero-text-shadow-lg">
               Entrenamiento adaptado a tus necesidades
             </h1>
-            <p className="text-xl text-ink-soft leading-relaxed">
+            <p className="text-xl text-ink leading-relaxed hero-text-shadow">
               En nuestro centro de Los Remedios ofrecemos programas especializados según tus objetivos. Elige cómo quieres entrenar con nosotros.
             </p>
           </div>

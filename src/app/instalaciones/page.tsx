@@ -1,5 +1,6 @@
 import { Metadata } from "next";
-import Center from "@/components/sections/Center";
+import { CheckCircle2 } from "lucide-react";
+import FacilitiesGallery from "@/components/sections/FacilitiesGallery";
 import FinalCTA from "@/components/sections/FinalCTA";
 
 export const metadata: Metadata = {
@@ -15,21 +16,33 @@ export const metadata: Metadata = {
   },
 };
 
+const features = [
+  "Entrada a pie de calle, sin barreras",
+  "Sala amplia y bien iluminada",
+  "Material para fuerza, cardio y entrenamiento funcional",
+  "Ambiente tranquilo, con plazas limitadas en grupo",
+];
+
 export default function InstalacionesPage() {
   return (
     <div className="bg-[#f5f7fb]">
-      <section className="py-16 md:py-20 bg-bg">
-        <div className="mx-auto max-w-3xl px-4 md:px-6 text-center">
-          <h1 className="font-serif text-4xl font-bold leading-tight text-ink sm:text-5xl">
-            Nuestras instalaciones
-          </h1>
-          <p className="mt-6 text-xl text-ink-soft leading-relaxed">
-            Un espacio en Los Remedios pensado para entrenar con comodidad, seguridad y atención personalizada.
-          </p>
+      <FacilitiesGallery />
+
+      <section className="py-16 md:py-20 bg-surface">
+        <div className="mx-auto max-w-3xl px-4 md:px-6">
+          <ul className="flex flex-col gap-4">
+            {features.map((feature) => (
+              <li key={feature} className="flex items-start gap-3 text-lg font-medium text-ink">
+                <CheckCircle2
+                  className="mt-1 h-6 w-6 text-accent shrink-0"
+                  aria-hidden="true"
+                />
+                <span>{feature}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
-
-      <Center />
 
       <FinalCTA />
     </div>

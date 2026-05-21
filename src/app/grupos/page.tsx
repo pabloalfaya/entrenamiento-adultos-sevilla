@@ -23,8 +23,8 @@ export default function GruposPage() {
         {/* Background Image & Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/sanolosremedios1.webp"
-            alt="Entrenamiento en grupos reducidos"
+            src="/Instalaciones1.jpeg"
+            alt="Instalaciones del centro Entrena Sevilla"
             fill
             className="object-cover object-center"
             priority
@@ -34,13 +34,13 @@ export default function GruposPage() {
 
         <div className="relative z-10 mx-auto max-w-6xl px-4 md:px-6">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-2 text-sm font-semibold tracking-wide text-accent mb-6">
+            <div className="inline-flex items-center gap-2 rounded-full bg-white/90 px-4 py-2 text-sm font-semibold tracking-wide text-accent mb-6 shadow-sm hero-text-shadow">
               <span>GRUPOS REDUCIDOS</span>
             </div>
-            <h1 className="font-serif text-4xl leading-[1.15] tracking-tight text-ink sm:text-5xl lg:text-6xl mb-8">
+            <h1 className="font-serif text-4xl leading-[1.15] tracking-tight text-ink sm:text-5xl lg:text-6xl mb-8 hero-text-shadow-lg">
               Entrena en grupo, mejora tu forma física y diviértete
             </h1>
-            <p className="text-xl leading-relaxed text-ink-soft mb-10">
+            <p className="text-xl leading-relaxed text-ink mb-10 hero-text-shadow">
               Nuestro entrenamiento en grupos reducidos está diseñado para quienes buscan mantenerse activos, ganar fuerza y mejorar su salud general en un entorno dinámico y motivador, con plazas limitadas para asegurar la atención del entrenador.
             </p>
             <Link

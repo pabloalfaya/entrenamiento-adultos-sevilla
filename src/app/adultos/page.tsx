@@ -31,8 +31,8 @@ export default function MayoresPage() {
         {/* Background Image & Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/sanolosremedios1.webp"
-            alt="Entrenamiento salud y mayores"
+            src="/Instalaciones1.jpeg"
+            alt="Instalaciones del centro Entrena Sevilla"
             fill
             className="object-cover object-center"
             priority
@@ -44,13 +44,13 @@ export default function MayoresPage() {
           <div className="grid gap-12 lg:grid-cols-12 lg:gap-8 items-center">
             
             <div className="lg:col-span-7 flex flex-col gap-8">
-              <div className="inline-flex items-center gap-2 self-start rounded-full bg-accent/10 px-4 py-2 text-sm font-semibold tracking-wide text-accent">
+              <div className="inline-flex items-center gap-2 self-start rounded-full bg-white/90 px-4 py-2 text-sm font-semibold tracking-wide text-accent shadow-sm hero-text-shadow">
                 <span>SALUD Y MAYORES DE 70 AÑOS</span>
               </div>
-              <h1 className="font-serif text-4xl leading-[1.15] tracking-tight text-ink sm:text-5xl lg:text-6xl">
+              <h1 className="font-serif text-4xl leading-[1.15] tracking-tight text-ink sm:text-5xl lg:text-6xl hero-text-shadow-lg">
                 Recupera la fuerza, el equilibrio y la confianza al caminar
               </h1>
-              <p className="text-xl leading-relaxed text-ink-soft max-w-2xl">
+              <p className="text-xl leading-relaxed text-ink max-w-2xl hero-text-shadow">
                 Soy Juan José Alfaya, graduado en CAFD especializado en adulto mayor. En mi centro trabajo uno a uno, con calma, método y el respeto que cada persona merece. Trabajo con objetivos concretos como mejorar el día a día o la prevención de caídas.
               </p>
               <Link
