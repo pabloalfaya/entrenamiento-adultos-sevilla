@@ -24,8 +24,8 @@ export default function Home() {
         {/* Background Image & Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/sanolosremedios1.webp"
-            alt="Fondo centro de entrenamiento"
+            src="/Instalaciones1.jpeg"
+            alt="Instalaciones del centro Entrena Sevilla"
             fill
             className="object-cover object-center"
             priority
