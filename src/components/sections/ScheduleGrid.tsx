@@ -113,7 +113,7 @@ export default function ScheduleGrid() {
           ¿Quieres reservar plaza en alguna clase?
         </p>
         <a
-          href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20apuntarme%20a%20los%20entrenamientos%20en%20grupo."
+          href="https://wa.me/34666489362?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20apuntarme%20a%20los%20entrenamientos%20en%20grupo."
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex min-h-[56px] items-center justify-center rounded-full bg-primary px-8 text-lg font-semibold text-white shadow-sm transition-colors hover:bg-primary-hover"

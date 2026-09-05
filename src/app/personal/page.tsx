@@ -45,7 +45,7 @@ export default function PersonalPage() {
               No creemos en las rutinas de cajón. Evaluamos tu estado inicial, escuchamos tus objetivos y trazamos un plan de entrenamiento individual o en pareja con la supervisión constante de un graduado en CAFD.
             </p>
             <Link
-              href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20reservar%20una%20valoraci%C3%B3n%20gratuita%20para%20entrenamiento%20personal."
+              href="https://wa.me/34666489362?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20reservar%20una%20valoraci%C3%B3n%20gratuita%20para%20entrenamiento%20personal."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex min-h-[56px] items-center justify-center gap-2 rounded-full bg-primary px-8 text-lg font-semibold text-white shadow-sm transition-colors hover:bg-primary-hover focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg"

@@ -43,10 +43,10 @@ export default function ContactoPage() {
                     <dt className="text-sm font-medium text-slate-500">Teléfono</dt>
                     <dd className="mt-1">
                       <a
-                        href="tel:+34666003340"
+                        href="tel:+34666489362"
                         className="text-[#0f3c73] underline-offset-2 hover:underline"
                       >
-                        +34 666 003 340
+                        +34 666 489 362
                       </a>
                     </dd>
                   </div>
@@ -70,7 +70,7 @@ export default function ContactoPage() {
                 </h2>
                 <div className="mt-6 flex flex-wrap gap-4">
                   <a
-                    href="tel:+34666003340"
+                    href="tel:+34666489362"
                     className="inline-flex items-center gap-2 rounded-full bg-[#0f3c73] px-5 py-3 font-medium text-white transition hover:bg-[#12498e]"
                   >
                     <svg
@@ -89,7 +89,7 @@ export default function ContactoPage() {
                     Llamar
                   </a>
                   <a
-                    href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20entrenamiento%20especializado%20en%20adultos."
+                    href="https://wa.me/34666489362?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20entrenamiento%20especializado%20en%20adultos."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-3 font-medium text-white transition hover:bg-[#20b457]"

@@ -26,7 +26,7 @@ export default function AvisoLegalPage() {
               <li><strong>Titular:</strong> Juan José Alfaya Arias</li>
               <li><strong>Domicilio:</strong> Calle Virgen de Setefilla 12, 41011 Los Remedios, Sevilla</li>
               <li><strong>Correo electrónico:</strong> farrosqui@gmail.com</li>
-              <li><strong>Teléfono:</strong> +34 666 003 340</li>
+              <li><strong>Teléfono:</strong> +34 666 489 362</li>
             </ul>
 
             <h2 className="text-xl font-bold text-ink mt-8 mb-4">2. Usuarios</h2>

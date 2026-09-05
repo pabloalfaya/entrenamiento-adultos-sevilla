@@ -15,7 +15,7 @@ export default function FinalCTA() {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
           <a
-            href="tel:+34666003340"
+            href="tel:+34666489362"
             className="flex min-h-[56px] w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-white px-8 text-lg font-semibold text-primary shadow-sm transition-transform hover:scale-105 focus:outline-none focus-visible:ring-4 focus-visible:ring-white/40 focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
           >
             <Phone className="h-6 w-6" aria-hidden="true" />
@@ -23,7 +23,7 @@ export default function FinalCTA() {
           </a>
           
           <a
-            href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20entrenamiento%20especializado%20en%20adultos."
+            href="https://wa.me/34666489362?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20entrenamiento%20especializado%20en%20adultos."
             target="_blank"
             rel="noopener noreferrer"
             className="flex min-h-[56px] w-full sm:w-auto items-center justify-center gap-3 rounded-full border-2 border-white px-8 text-lg font-semibold text-white transition-colors hover:bg-white/10 focus:outline-none focus-visible:ring-4 focus-visible:ring-white/40 focus-visible:ring-offset-2 focus-visible:ring-offset-primary"

@@ -96,7 +96,7 @@ export default function PreciosPage() {
                 </div>
 
                 <a
-                  href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20apuntarme%20a%20los%20entrenamientos%20en%20grupo."
+                  href="https://wa.me/34666489362?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20apuntarme%20a%20los%20entrenamientos%20en%20grupo."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex min-h-[56px] w-full items-center justify-center rounded-full bg-primary px-8 text-lg font-semibold text-white shadow-sm transition-colors hover:bg-primary-hover focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/40"
@@ -162,7 +162,7 @@ export default function PreciosPage() {
                 </ul>
 
                 <a
-                  href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20reservar%20una%20valoraci%C3%B3n%20gratuita."
+                  href="https://wa.me/34666489362?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20reservar%20una%20valoraci%C3%B3n%20gratuita."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-auto flex min-h-[56px] w-full items-center justify-center rounded-full bg-primary px-8 text-lg font-semibold text-white shadow-sm transition-colors hover:bg-primary-hover focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/40"
@@ -210,7 +210,7 @@ export default function PreciosPage() {
                 </ul>
 
                 <a
-                  href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20entrenamiento%20en%20pareja."
+                  href="https://wa.me/34666489362?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20entrenamiento%20en%20pareja."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-auto flex min-h-[56px] w-full items-center justify-center rounded-full border-2 border-primary px-8 text-lg font-semibold text-primary shadow-sm transition-colors hover:bg-primary hover:text-white focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/40"

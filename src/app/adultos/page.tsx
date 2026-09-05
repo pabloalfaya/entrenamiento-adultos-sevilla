@@ -54,7 +54,7 @@ export default function MayoresPage() {
                 Soy Juan José Alfaya, graduado en CAFD especializado en adulto mayor. En mi centro trabajo uno a uno, con calma, método y el respeto que cada persona merece. Trabajo con objetivos concretos como mejorar el día a día o la prevención de caídas.
               </p>
               <Link
-                href="https://wa.me/34666003340?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20reservar%20una%20valoraci%C3%B3n%20gratuita."
+                href="https://wa.me/34666489362?text=Hola%20Juan%20Jos%C3%A9%2C%20me%20gustar%C3%ADa%20reservar%20una%20valoraci%C3%B3n%20gratuita."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex min-h-[56px] w-full sm:w-auto items-center justify-center gap-2 rounded-full bg-primary px-8 text-lg font-semibold text-white shadow-sm transition-colors hover:bg-primary-hover focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg"

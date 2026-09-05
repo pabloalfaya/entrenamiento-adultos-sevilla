@@ -68,9 +68,9 @@ export default function Footer() {
             <h2 className="mb-6 text-lg font-semibold text-white">Contacto</h2>
             <ul className="flex flex-col gap-4 text-base text-muted">
               <li>
-                <a href="tel:+34666003340" className="flex items-center gap-2 hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">
+                <a href="tel:+34666489362" className="flex items-center gap-2 hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm">
                   <Phone className="h-5 w-5 shrink-0" aria-hidden="true" />
-                  +34 666 003 340
+                  +34 666 489 362
                 </a>
               </li>
               <li>

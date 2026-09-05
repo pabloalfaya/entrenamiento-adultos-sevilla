@@ -61,7 +61,7 @@ export default function Navbar() {
 
         <div className="flex items-center gap-4">
           <a
-            href="tel:+34666003340"
+            href="tel:+34666489362"
             className="hidden sm:inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 min-h-[48px] text-base font-medium text-white shadow-sm transition hover:bg-primary-hover focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
           >
             <Phone className="h-5 w-5" aria-hidden="true" />
@@ -103,7 +103,7 @@ export default function Navbar() {
               ))}
               <li className="pt-4 border-t border-muted">
                 <a
-                  href="tel:+34666003340"
+                  href="tel:+34666489362"
                   className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary px-6 py-4 text-lg font-medium text-white shadow-sm"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
